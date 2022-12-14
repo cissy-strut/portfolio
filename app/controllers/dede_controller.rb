@@ -1,2 +1,0 @@
-class DedeController < ApplicationController
-end
