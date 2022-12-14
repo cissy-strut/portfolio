@@ -1,0 +1,2 @@
+class DedeController < ApplicationController
+end
