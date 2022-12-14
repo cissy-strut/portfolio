@@ -1,0 +1,2 @@
+class TerController < ApplicationController
+end
