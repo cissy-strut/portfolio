@@ -1,2 +1,0 @@
-class ProtController < ApplicationController
-end
