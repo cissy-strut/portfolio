@@ -1,0 +1,154 @@
+.my-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-radius: 50%;
+}
+
+
+.my-card p {
+  opacity: .5;
+}
+
+.my-card {
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(225, 166, 29);
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+  margin-top: 15px;
+  min-height: 450px;
+  color: white;
+}
+
+.my-card:hover {
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(80, 80, 80);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  background-color: rgb(205, 205, 205);
+}
+
+.my-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.my-card-details {
+  width: 700px;
+  height: 700px;
+}
+
+@media(max-width: 900px) {
+  .my-card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .my-cards {
+    justify-content: space-around;
+  }
+}
+
+
+
+// my cards 2
+
+
+.my-card2 img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+
+.my-card2 p {
+  opacity: .5;
+  text-align: justify;
+}
+
+.my-card2 h4{
+  text-align: justify;
+  font-size: 24px;
+}
+
+.my-card2 {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  background-color: white;
+  margin: auto;
+
+}
+
+
+
+.my-card2-details {
+  width: 700px;
+  height: 700px;
+}
+
+@media(max-width: 900px) {
+  .my-card2 {
+    margin-bottom: 15px;
+  }
+}
+
+
+
+// card 3 pour la show
+
+
+.my-card3 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+
+.my-card3 p {
+  opacity: .5;
+}
+
+.my-card3 {
+  width: 600px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  background-color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.my-card3 a {
+    display: inline-block;
+    background-color: #dda11e;
+    padding: 16px 26px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.marg-bottom {
+  margin-bottom: 30px;
+}

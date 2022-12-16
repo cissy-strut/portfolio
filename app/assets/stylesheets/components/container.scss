@@ -1,0 +1,50 @@
+.my-container {
+  width: 900px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+body {
+  background-color: black ;
+}
+
+@media(max-width: 900px) {
+  .my-container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .my-container {
+    width: 300px;
+  }
+}
+
+.my-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5 rgb(230, 230, 230);
+  display: inline-block;
+  text-align: center;
+}
+.my-container h2,h3,h4{
+  font-weight: bold;
+  font-size: 16px;
+}
+.my-container p{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.my-container h1{
+  font-size: 50px;
+
+}
+
+
+.my-container a{
+  text-decoration: none;
+  color: black;
+}

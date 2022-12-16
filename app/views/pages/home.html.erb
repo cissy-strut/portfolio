@@ -1,2 +1,43 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <h1>Sylvain PEREZ MORILLAS</h1>
+  <p>Mon Portfolio</p>
+  <div class="my-btn">
+    <%= link_to "En savoir plus ...", "#", class: "dropdown-item" %>
+  </div>
+</div>
+
+  <!-- code a "How it works" section -->
+  <div class="my-container">
+    <div class="my-cards">
+
+      <div class="my-card">
+        <%= image_tag "wagon.png", alt: "une photo de guitare" %>
+        <h4> Mes Formations </h4>
+        <p> J'ai été diplômé de Digital Campus , et du wagon. Je travail dans l'univers de la tech depuis plusieurs années maintenant. </p>
+      </div>
+
+      <div class="my-card">
+        <%= image_tag "js.png", alt: "une photo de violon" %>
+        <h4>Mes languages  </h4>
+        <p>Je travail avec :  Ruby, Rails, Html, Css, JS, Stimulus. En cours d'apprentissage : React </p>
+      </div>
+
+      <div class="my-card">
+        <%= image_tag "logo.png", alt: "une photo avec un echange d'argent" %>
+        <h4>Qui suis je ? </h4>
+        <p>Sylvain Perez: J'ai 31 ans et developpeur FullStack avec une grosse apétance pour le Front, en cours d'apprentissage sur React. Je cherche actuellement un emploi </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- code a footer -->
+  <div class="footer">
+    <div class="links">
+      <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-fw fa-github"></i></a>
+      <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
+      <p> Un site internet réalisé par des etudiant du @wagon Fait par nous pour nous </p>
+    </div>
+  </div>
